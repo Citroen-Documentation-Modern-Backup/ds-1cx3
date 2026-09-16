@@ -1,0 +1,23 @@
+{
+ "ref": "060103434504G",
+ "refDisplay": "0601 03 434504G",
+ "title": "CYLINDRES SPHERES SUSPENSION AV",
+ "nature": "",
+ "applicability": "SUSPENSION HYDRACTIVE 3",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ2",
+   "fctId": "FCT0027"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FQ2",
+   "fctId": "FCT0027"
+  }
+ ]
+}

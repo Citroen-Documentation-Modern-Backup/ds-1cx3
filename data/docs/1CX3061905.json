@@ -1,0 +1,64 @@
+{
+ "ref": "1CX3061905",
+ "refDisplay": "1CX3 0 6 1905",
+ "title": "MOTEUR-B V AUTOMATIQUE",
+ "nature": "",
+ "applicability": "(A03X) C5 II BERLINE 5PTES DIESEL TURBO DW10BTED4 FAP BVA 6 RAPPORTS",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FAT",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FJ0",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F3M",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FAT",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F6Z",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0004"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F3M",
+   "fctId": "FCT0004"
+  }
+ ]
+}

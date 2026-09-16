@@ -1,0 +1,23 @@
+{
+ "ref": "060101231048A",
+ "refDisplay": "0601 01 231048A",
+ "title": "POMPE A EAU JOINT COLLECTEUR EAU",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 11166",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ2",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FQ2",
+   "fctId": "FCT0009"
+  }
+ ]
+}

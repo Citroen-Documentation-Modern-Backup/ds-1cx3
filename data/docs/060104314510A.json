@@ -1,0 +1,23 @@
+{
+ "ref": "060104314510A",
+ "refDisplay": "0601 04 314510A",
+ "title": "EMETTEUR RECEPTEUR EMBRAYAGE",
+ "nature": "",
+ "applicability": "BVM6 ET CONDUITE A GAUCHE JUSQU’A OPR 10765",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FQ1",
+   "fctId": "FCT0016"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FQ1",
+   "fctId": "FCT0016"
+  }
+ ]
+}

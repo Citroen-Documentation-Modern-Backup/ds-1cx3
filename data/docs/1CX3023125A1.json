@@ -1,0 +1,19 @@
+{
+ "ref": "1CX3023125A1",
+ "refDisplay": "1CX3 0 231 25A1",
+ "title": "TUYAU REFROIDISSEMENT DISQUE AV",
+ "nature": "",
+ "applicability": "(A03P) C5 II BREAK 5PTES INJECTION ES9A BVA 6 RAPPORTS",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F3M",
+   "fctId": "FCT0040"
+  }
+ ]
+}

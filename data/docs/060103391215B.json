@@ -1,0 +1,18 @@
+{
+ "ref": "060103391215B",
+ "refDisplay": "0601 03 391215B",
+ "title": "POMPE HP",
+ "nature": "",
+ "applicability": " DEPUIS OPR 10248",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F6Z",
+   "fctId": "FCT0337"
+  }
+ ]
+}

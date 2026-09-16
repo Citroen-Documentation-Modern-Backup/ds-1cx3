@@ -1,0 +1,18 @@
+{
+ "ref": "060103434707A",
+ "refDisplay": "0601 03 434707A",
+ "title": "CYLINDRES SPHERES SUSPENSION AR",
+ "nature": "",
+ "applicability": "",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0031"
+  }
+ ]
+}

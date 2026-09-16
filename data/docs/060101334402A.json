@@ -1,0 +1,23 @@
+{
+ "ref": "060101334402A",
+ "refDisplay": "0601 01 334402A",
+ "title": "LIGNE SECONDAIRE BVM",
+ "nature": "",
+ "applicability": "BVM BE4R ET BVM BE4 J ET CP 17 X 71 JUSQU’A OPR 10585",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F6U",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F6U",
+   "fctId": "FCT0017"
+  }
+ ]
+}

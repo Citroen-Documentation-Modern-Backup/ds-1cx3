@@ -1,0 +1,238 @@
+<div id="title" class="section_titre"><table class="refDoc"><tbody><tr><td colspan="2" class="references">B2CB21P0</td><td class="title">Principe de fonctionnement : Boîte de vitesses automatique ZF 4HP20</td></tr></tbody></table></div><div id="appl" class="section_appl">BVA 4HP20 ET BVA4 DEPUIS OPR 7482</div><div class="section_corps" id="content"><div class="cha1"><div class="sti1">1. Généralités : Loi de passage des rapports</div></div>
+<div class="tli">Le point de fonctionnement de la boîte de vitesses est défini par les informations suivantes : 
+<ul>
+<li>Position papillon</li>
+<li>Vitesse et charge moteur du véhicule</li>
+</ul>
+</div>
+<div class="par">En fonctionnement, la décision de changement de rapport est prise par le calculateur à partir d’un jeu de courbes appelé "loi de passage".</div><div class="tli">Chaque loi de passage comprend : 
+<ul>
+<li>Les seuils de changement de rapport (montée et rétrogradage de rapports)</li>
+<li>Les seuils de pontage du convertisseur de couple (courbes de pontage)</li>
+<li>Les points "kick-down"</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">1.1. Courbes de passage des rapports</div></div>
+<div id="b2cp33ud_1_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/ud/b2cp/b2cp33ud.avif" class="image" height="360" width="615" id="b2cp33ud_1"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b2cp33ud</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/ud/b2cp/b2cp33ud.avif" data-figure="1"><img id="b2cp33ud_1_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Exemple de loi de passage des rapports         (courbes de pontage convertisseur non représentées).</div><div class="par">  X - Vitesse véhicule .</div><div class="par">  Y - Position de la pédale d’accélérateur (en %).</div><div class="par">  (A) Courbe de passage 2ème vitesse vers 1ère vitesse.</div><div class="par">  (B) Courbe de passage 1ère vitesse vers 2ème vitesse.</div><div class="par">  (C) Courbe de passage 3ème vitesse vers 2ème vitesse.</div><div class="par">  (D) Courbe de passage 2ème vitesse vers 3ème vitesse.</div><div class="par">  (E) Courbe de passage 4ème vitesse vers 3ème vitesse.</div><div class="par">  (F) Courbe de passage 3ème vitesse vers 4ème vitesse.</div><div class="par">"  G" Point exemple 1.</div><div class="par">"  H" Point exemple 2.</div><div class="par">"  KD" Points de "kick-down" (rétrogradage).</div><div class="par">Le changement de rapport est obtenu lorsque le point de fonctionnement coupe la courbe (vitesse croissante ou décroissante).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Les seuils de passage sont différents, en montée et en descente de rapport, de manière à éviter des changements de rapports répétés. </div></div>
+<div class="par">Dans tous les cas       , Les lois de passage permettent sur sollicitation du conducteur d’obtenir les performances maximales du véhicule.</div><div class="par">En cas d’enfoncement total de la pédale d’accélérateur, le calculateur passe automatiquement au point KD   (kick-down).</div><div class="tli">Exemple   1 : Véhicule à vitesse croissante : 
+<ul>
+<li>La pédale d’accélérateur est enfoncée à 80% de sa course</li>
+<li>Le véhicule est en 3ème vitesse</li>
+<li>La montée de rapport a lieu dès que le véhicule atteint la vitesse de 100 km/h</li>
+</ul>
+</div>
+<div class="tli">Exemple   2 : Véhicule à vitesse décroissante : 
+<ul>
+<li>La pédale d’accélérateur est enfoncée à 80% de sa course</li>
+<li>Le véhicule est en 4ème vitesse</li>
+<li>Le rétrogradage a lieu dès que la vitesse du véhicule descend au-dessous de 72 km/h</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">1.2. Courbes de pontage du convertisseur</div></div>
+<div id="b2cp33vd_2_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/vd/b2cp/b2cp33vd.avif" class="image" height="360" width="615" id="b2cp33vd_2"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b2cp33vd</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/vd/b2cp/b2cp33vd.avif" data-figure="1"><img id="b2cp33vd_2_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">Exemple de courbes de pontage    (courbes de passage de vitesses non représentées).</div><div class="par">  X - Vitesse véhicule .</div><div class="par">  Y - Position de la pédale d’accélérateur (en %).</div><div class="par">  (J) Courbe de pontage 2ème vitesse vers 1ère vitesse.</div><div class="par">  (K) Courbe de pontage 1ère vitesse vers 2ème vitesse.</div><div class="par">"  KD" Points de "kick-down" (rétrogradage).</div><div class="par">  (L) Courbe de pontage 3ème vitesse vers 2ème vitesse.</div><div class="par">  (M) Courbe de pontage 2ème vitesse vers 3ème vitesse.</div><div class="par">  (N) Courbe de pontage 4ème vitesse vers 3ème vitesse.</div><div class="par">  (P) Courbe de pontage 3ème vitesse vers 4ème vitesse.</div><div class="par">"  Q" Point exemple 1.</div><div class="par">"  R" Point exemple 2.</div><div class="tli">Exemple   1 : Véhicule à vitesse croissante : 
+<ul>
+<li>La pédale d’accélérateur est enfoncée à 80% de sa course</li>
+<li>Le véhicule est en 3ème vitesse</li>
+<li>Le pontage du convertisseur de couple a lieu dès que le véhicule atteint la vitesse de 75 km/h</li>
+</ul>
+</div>
+<div class="tli">Exemple   2 : Véhicule à vitesse décroissante : 
+<ul>
+<li>La pédale d’accélérateur est enfoncée à 80% de sa course</li>
+<li>Le véhicule est en 4ème vitesse</li>
+<li>Le dépontage du convertisseur de couple a lieu dès que la vitesse du véhicule descend au-dessous de 58 km/h</li>
+</ul>
+</div>
+<div class="cha1"><div class="sti1">2. Lois de passage et programmes</div></div>
+<div id="b2cp3a6d_3_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/6d/b2cp/b2cp3a6d.avif" class="image" height="360" width="615" id="b2cp3a6d_3"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b2cp3a6d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/6d/b2cp/b2cp3a6d.avif" data-figure="1"><img id="b2cp3a6d_3_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">   S - Lois de fonctionnement "normal".</div><div class="par">  T - Lois protection et réchauffement de la boîte de vitesses.</div><div class="par">"  1" Sélecteur de programme.</div><div class="par">"  2" Information température d’huile de la boîte de vitesses.</div><div class="par">  (SK1 - SK6) Lois de passage de vitesses.</div><div class="par">  (SK7) Loi de réchauffement.</div><div class="par">  (SK8) Loi NEIGE.</div><div class="par">  (SK9 - SK10) Lois de protection thermique.</div><div class="tli">Le calculateur utilise   10 lois de passage : 
+<ul>
+<li>6 Lois autoadaptatives</li>
+<li>1 Loi spécifique au programme "neige"</li>
+<li>1 Loi de réchauffement de la boîte de vitesses et du moteur</li>
+<li>2 Lois de protection thermique</li>
+</ul>
+</div>
+<div class="par">Les lois mémorisées autorisent un double rétrogradage.</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Pour une boîte de vitesses à gestion purement hydraulique, il n’existe qu’un seul jeu de loi de passage. </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Le mode de fonctionnement "rapports imposés" limite le nombre de rapports disponibles      . Il utilise les seuils de passage utilisés en fonctionnement "automatique". </div></div>
+<div class="par">La loi de passage de vitesses   SK1 est la plus économique.</div><div class="par">La loi de passage de vitesses   SK6 est la plus sportive.</div><div class="tli">Le calculateur électronique gère   3 programmes de conduite : 
+<ul>
+<li> normal (paramètres autoadaptatifs)</li>
+<li> Sport (paramètres autoadaptatifs)</li>
+<li>Neige</li>
+</ul>
+</div>
+<div class="par">Le conducteur peut sélectionner le programme désiré par appui sur la touche correspondante.</div><div class="par">Le choix du programme est rappelé au combiné par l’allumage du voyant correspondant.</div><div class="par">Le passage au programme économique se fait en appuyant sur la touche correspondant au programme actif.</div><div class="par">À la mise du contact la boîte de vitesses se place systématiquement en programme "normal"         (autoadaptatif).</div><div class="cha2"><div class="sti2">2.1. Programme "Normal" , Programme "Sport"</div></div>
+<div class="par">Le calculateur adapte le fonctionnement de la boîte de vitesses à la route, la charge moteur et au style de conduite.</div><div id="b2cp3a7d_4_div"><div class="legende"></div><table class="imgTable"><tbody><tr><td class="imgTable" colspan="2"><div><img src="img/AC/img/inf_inc/7d/b2cp/b2cp3a7d.avif" class="image" height="360" width="615" id="b2cp3a7d_4"></div></td></tr><tr><td class="imgTable"><span class="fig">Figure : <span class="img_numfich">b2cp3a7d</span></span></td><td align="right" class="imgTable"><span class="imgNavbar"><a href="img/AC/img/inf_inc/7d/b2cp/b2cp3a7d.avif" data-figure="1"><img id="b2cp3a7d_4_FullScreen" border="0" width="20" height="20" alt="Afficher l'image en plein écran" src="img/images/Document/fullscreen.avif"></a></span></td></tr></tbody></table></div><div class="par">       U - Paramètres conducteur.</div><div class="par">  V - Paramètres véhicule.</div><div class="par">  (SK1 - SK6) Lois de passage de vitesses.</div><div class="par">"  1" Sélecteur de programme.</div><div class="tli">Le calculateur adapte le changement de rapport en fonction des éléments suivants : 
+<ul>
+<li>Style de conduite</li>
+<li>Programme sélectionné par le conducteur</li>
+<li>Profil de la route   : Adhérence du revêtement , Dénivelés de la route</li>
+<li>Boîte de vitesses  : Température d’huile  , État d’usure</li>
+<li>Moteur  : Charge  , Régime moteur , Température </li>
+</ul>
+</div>
+<div class="tli">Les principales informations prises en compte sont les suivantes : 
+<ul>
+<li>Information  position papillon</li>
+<li>Vitesse de changement de position du papillon</li>
+<li>Position moyenne du papillon</li>
+<li>Variation de la vitesse de sortie de la boîte de vitesses (capteur de vitesse de sortie)</li>
+<li>L’accélération du véhicule (couple moteur)</li>
+<li>Vitesse véhicule </li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">2.2. Programme "Normal"</div></div>
+<div class="par">Programme adapté à une conduite normale  (le gain en consommation est privilégié).</div><div class="par">Le calculateur adapte le fonctionnement de la boîte de vitesses à la route, la charge moteur et au style de conduite.</div><div class="par">Le calculateur utilise toutes les lois de passage     (SK1 à SK6).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Au démarrage à froid le calculateur utilise la loi   SK2. </div></div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Au démarrage à chaud le calculateur utilise la loi activée avant la coupure du contact. </div></div>
+<div class="cha2"><div class="sti2">2.3. Programme "Sport"</div></div>
+<div class="par">Programme adapté à une conduite sportive    (au détriment de la consommation).</div><div class="par">Les changements de rapports s’effectuent à des régimes moteur élevés   (privilégiant les performances du véhicule).</div><div class="par">Le calculateur utilise   2 lois de passage : SK5 et SK6 (lois sportives).</div><div class="cha2"><div class="sti2">2.4. Programme "Neige"</div></div>
+<div class="par">Programme adapté à une conduite sur sol à faible adhérence.</div><div class="tli">Particularités : 
+<ul>
+<li>Interdiction de passage de la 1ère vitesse   . Levier de sélection de vitesses en position "D"</li>
+<li>Les changements de rapports sont moins fréquents que pour les autres programmes</li>
+<li>Permet un fonctionnement en douceur (pas de variation brusque de couple aux roues)</li>
+<li>Rétrogradage forcé lors d’un freinage</li>
+<li>Le rapport engagé correspond à la position du levier de vitesses (si la vitesse véhicule le permet)</li>
+</ul>
+</div>
+<div class="par">En position "  D", le démarrage s’effectue en 2ème vitesse.</div><div class="cha1"><div class="sti1">3. Lois spécifiques</div></div>
+<div class="cha2"><div class="sti2">3.1. Loi de réchauffement</div></div>
+<div class="par">Cette loi de fonctionnement est activée dans les conditions suivantes  : Lorsque la température d’huile de boîte de vitesses est comprise entre 15°C et 30°C au démarrage du véhicule.</div><div class="tli">Cette loi : 
+<ul>
+<li>Est activée durant   130 secondes</li>
+<li>Est désactivée en fin de temporisation</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">3.2. Lois de protection thermique</div></div>
+<div class="tli">Les lois de protection thermique permettent : 
+<ul>
+<li>De favoriser le refroidissement de l’huile de la boîte de vitesses</li>
+<li>De protéger la boîte de vitesses</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La loi    SK9 est activée dès le dépassement de la température limite de l’huile de la boîte de vitesses. </div></div>
+<div class="tli">La loi   SK10 est activée dans les conditions suivantes : 
+<ul>
+<li>Température de l’huile de la boîte de vitesses élevée</li>
+<li>Roulage de type urbain</li>
+</ul>
+</div>
+<div class="tableau">
+<table class="tableauAC">
+<tbody><tr valign="top"><td colspan="1" rowspan="1">Loi </td>
+<td colspan="1" rowspan="1">Température d’huile  : Activation de la loi</td>
+<td colspan="1" rowspan="1">Température d’huile  : Désactivation de la loi</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">SK9</td>
+<td colspan="1" rowspan="1">120°C</td>
+<td colspan="1" rowspan="1">117°C</td>
+</tr><tr valign="top"><td colspan="1" rowspan="1">SK10</td>
+<td colspan="1" rowspan="1">118°C</td>
+<td colspan="1" rowspan="1">115°C</td>
+</tr></tbody></table>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : En programme Neige, la loi Neige est prioritaire sur la loi de Protection Thermique. </div></div>
+<div class="cha1"><div class="sti1">4. Autres fonctions autoadaptatives</div></div>
+<div class="cha2"><div class="sti2">4.1. Interdiction de montée de rapport   (lever de pied rapide)</div></div>
+<div class="par">Cette fonction empêche le passage intempestif du rapport supérieur lors d’un lever de pied rapide  (frein moteur en décélération).</div><div class="rem"><div class="not"><span class="maj">NOTA</span> : Cette fonction est également active lorsque le véhicule est en descente   , Pédale d’accélérateur relâchée. </div></div>
+<div class="cha2"><div class="sti2">4.2. Élévation momentanée de la Sportivité</div></div>
+<div class="par">Cette fonction est activée lors d’une sollicitation rapide de la pédale d’accélérateur en programme "normal".</div><div class="par">Le calculateur passe temporairement à une loi de fonctionnement plus sportive permettant de privilégier les reprises.</div><div class="cha2"><div class="sti2">4.3. Blocage de rapport au changement de loi</div></div>
+<div class="par">Dans certaines conditions, lorsque le calculateur change de loi de fonctionnement le rapport engagé est bloqué.</div><div class="tli">Le rapport est débloqué dans les conditions suivantes : 
+<ul>
+<li>Pied relevé de la pédale d’accélérateur</li>
+<li>Accélération du véhicule après une temporisation programmée</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">4.4. Autoadaptivité au passage des rapports</div></div>
+<div class="par">Le calculateur tient compte du vieillissement de la boîte de vitesses par des paramètres autoadaptatifs.</div><div class="par">Les paramètres autoadaptatifs sont utilisés pour moduler les montées en pression dans les embrayages et les freins.</div><div class="cha1"><div class="sti1">5. Rétrogradage au freinage</div></div>
+<div class="par">Le rétrogradage lors d’un freinage est autoadaptatif.</div><div class="tli">Le calculateur gère entièrement le rétrogradage en fonction des paramètres suivants : 
+<ul>
+<li>Charge moteur</li>
+<li>Vitesse véhicule </li>
+<li>Suivant les conditions de roulage</li>
+</ul>
+</div>
+<div class="par">Dans certains cas, le calculateur peut imposer un double rétrogradage (de   4 vers 2 ou de 3 vers 1) ou un rétrogradage simple pour accroître le frein moteur.</div><div class="par">Dans certains cas, le rétrogradage peut être interdit afin de conserver le frein moteur.</div><div class="cha1"><div class="sti1">6. Fonctions hydrauliques</div></div>
+<div class="cha2"><div class="sti2">6.1. Régulation de la pression hydraulique principale</div></div>
+<div class="par">La valeur de la pression hydraulique principale est déterminée par le calculateur de boîte de vitesses en fonction du couple moteur.</div><div class="par">Cette pression hydraulique permet l’activation des embrayages et des freins.</div><div class="tli">La pression hydraulique principale peut être réglée de façon continue : 
+<ul>
+<li>Entre        15,5 et 18 bar : En phase de changement de vitesse et sur les rapports 1 et marche arrière</li>
+<li>Entre 5,5 et 8,8 bar : Sur les rapports 2, 3, 4 et N</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : Mode dégradé  : La pression hydraulique principale peut varier entre 15,5 et 18 bars. </div></div>
+<div class="cha2"><div class="sti2">6.2. Pilotage de l’embrayage de pontage</div></div>
+<div class="tli">L’embrayage de pontage peut être dans un des états suivants : 
+<ul>
+<li>État débrayé</li>
+<li>État embrayé</li>
+<li>État piloté</li>
+</ul>
+</div>
+<div class="tli">L’état débrayé permet : 
+<ul>
+<li>La multiplication du couple moteur au démarrage</li>
+<li>La fonction anticalage du moteur</li>
+<li>La filtration des acyclismes moteur</li>
+<li>De favoriser le refroidissement de la garniture de l’embrayage</li>
+<li>De fluidifier l’huile (à froid) et favoriser le réchauffement du moteur</li>
+</ul>
+</div>
+<div class="tli">L’état embrayé permet : 
+<ul>
+<li>Une diminution de la consommation en carburant</li>
+<li>De favoriser le refroidissement de l’huile de la boîte de vitesses      (température d’huile excessive)</li>
+<li>D’obtenir du frein moteur dans certaines phases de fonctionnement</li>
+<li>D’éviter le patinage</li>
+</ul>
+</div>
+<div class="par">Le convertisseur de couple peut être ponté (shunté) sur les rapports   1, 2, 3 et 4.</div><div class="tli">L’état piloté permet : 
+<ul>
+<li>La filtration des acyclismes moteur</li>
+<li>D’optimiser l’agrément de conduite</li>
+</ul>
+</div>
+<div class="par">Les seuils de pontage du convertisseur de couple font partie intégrante des lois de passage.</div><div class="cha1"><div class="sti1">7. Affichage des défauts     - Fonctionnement en modes dégradés</div></div>
+<div class="cha2"><div class="sti2">7.1. Affichage des défauts</div></div>
+<div class="par">Le clignotement simultané des voyants "sport" et "neige" signale une anomalie de fonctionnement.</div><div class="tli">Causes possibles du défaut : 
+<ul>
+<li>Rupture de la liaison entre le calculateur boîte de vitesses et le combiné</li>
+<li>Anomalie de fonctionnement dans le système de gestion de la boîte de vitesses</li>
+</ul>
+</div>
+<div class="tli">Certains défauts dans le système sont signalés par le clignotement des voyants "sport" et "neige" au combiné : 
+<ul>
+<li>Signal de régime moteur</li>
+<li>Vitesse d’entrée de boîte de vitesses</li>
+<li>Vitesse de sortie de boîte de vitesses</li>
+<li> contacteur multifonction </li>
+<li>Signal position papillon  (potentiomètre de charge via le calculateur d’injection)</li>
+<li>Thermistance d’huile de boîte de vitesses</li>
+<li>Alimentation + après contact</li>
+<li>Tension batterie </li>
+<li> signal couple moteur</li>
+<li>Électrovanne 1</li>
+<li>Électrovanne 2</li>
+<li> régulateur de pression 3</li>
+<li> régulateur de pression 4</li>
+<li> régulateur de pression 5</li>
+<li> régulateur de pression 6</li>
+<li>Signal estompage du couple moteur</li>
+<li>Calculateur </li>
+<li>Sortie alimentation actionneurs</li>
+<li> cohérence rapport engagé</li>
+<li>Protection surrégime</li>
+<li>Contrôle passage des rapports</li>
+<li>Blocage levier de vitesse "shift lock" (XANTIA)</li>
+</ul>
+</div>
+<div class="cha2"><div class="sti2">7.2. Fonctionnement en modes dégradés</div></div>
+<div class="tli">Lors d’un dysfonctionnement de la boîte de vitesses on a  2 configurations possibles selon la gravité du défaut : 
+<ul>
+<li>Boîte de vitesses en mode dégradé avec un programme de remplacement (les valeurs du défaut sont prises en substitution)</li>
+<li>Boîte de vitesses en mode dégradé avec un programme de secours</li>
+</ul>
+</div>
+<div class="rem"><div class="not"><span class="maj">NOTA</span> : La boîte de vitesses reste alors en 3ème ou en 4ème hydraulique. </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : Passage en mode refuge     : Lors de la présence d’un défaut, un choc à l’engagement peut être ressenti lorsque l’on place le levier de vitesses sur "P" ou "R". </div></div>
+<div class="rem"><div class="att"><span class="maj">ATTENTION</span> : En mode de secours hydraulique, les sécurités à l’engagement de vitesse ne sont plus assurées. </div></div>
+</div>

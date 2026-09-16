@@ -1,0 +1,25 @@
+{
+ "ref": "B1JB2FP0",
+ "refDisplay": "B1JB2FP0",
+ "title": "Caractéristiques : ligne d’échappement (moteur DV6TED4)",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F9W",
+   "fctId": "FCT0011"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F9W",
+   "fctId": "FCT0011"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "ref": "B1BBREP0",
+ "refDisplay": "B1BBREP0",
+ "title": "Caractéristiques générales : Moteur dw12bted4",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "SYSTEME INJECTION BOSCH ET MOTEUR TYPE EW/DW ET GAZOLE",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FJ0",
+   "fctId": "FCT0049"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0049"
+  }
+ ]
+}

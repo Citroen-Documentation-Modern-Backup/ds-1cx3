@@ -1,0 +1,23 @@
+{
+ "ref": "060101331140C",
+ "refDisplay": "0601 01 331140C",
+ "title": "CARTER CONVERTISSEUR",
+ "nature": "",
+ "applicability": "BVA AM6",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FJ0",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0017"
+  }
+ ]
+}

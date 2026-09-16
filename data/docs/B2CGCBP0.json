@@ -1,0 +1,25 @@
+{
+ "ref": "B2CGCBP0",
+ "refDisplay": "B2CGCBP0",
+ "title": "Dépose - repose : bloc hydraulique  et électrovannes ",
+ "nature": "Dépose-pose",
+ "applicability": "BVA AM6",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FJ0",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0017"
+  }
+ ]
+}

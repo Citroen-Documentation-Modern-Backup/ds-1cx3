@@ -1,0 +1,23 @@
+{
+ "ref": "060101335172A",
+ "refDisplay": "0601 01 335172A",
+ "title": "LEVIERS CDE FOURCHETTE EXTERNE BVM",
+ "nature": "",
+ "applicability": "BVM ML6 CL",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  }
+ ]
+}

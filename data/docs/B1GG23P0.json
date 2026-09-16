@@ -1,0 +1,25 @@
+{
+ "ref": "B1GG23P0",
+ "refDisplay": "B1GG23P0",
+ "title": "Dépose - repose : radiateur de refroidissement moteur ",
+ "nature": "Dépose-pose",
+ "applicability": "SYSTEME INJECTION BOSCH",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FJ0",
+   "fctId": "FCT0009"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0009"
+  }
+ ]
+}

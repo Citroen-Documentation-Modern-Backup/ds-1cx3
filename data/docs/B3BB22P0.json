@@ -1,0 +1,25 @@
+{
+ "ref": "B3BB22P0",
+ "refDisplay": "B3BB22P0",
+ "title": "Caractéristiques générales : blocs pneumatiques  restylage CITROËN C5 BY CARLSSON",
+ "nature": "Caractéristiques - identifications",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F3M",
+   "fctId": "FCT0337"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F3M",
+   "fctId": "FCT0337"
+  }
+ ]
+}

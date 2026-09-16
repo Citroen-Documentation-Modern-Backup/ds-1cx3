@@ -1,0 +1,25 @@
+{
+ "ref": "B1KG33P0",
+ "refDisplay": "B1KG33P0",
+ "title": "Dépose - repose : électrovanne de recyclage des gaz d’échappement  et échangeur thermique gaz échappement/eau ",
+ "nature": "Dépose-pose",
+ "applicability": "",
+ "typDoc": "2",
+ "css": [
+  "css/Document/gammes.css",
+  "css/Document/texte.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0FJ0",
+   "fctId": "FCT0012"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0012"
+  }
+ ]
+}

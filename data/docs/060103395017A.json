@@ -1,0 +1,18 @@
+{
+ "ref": "060103395017A",
+ "refDisplay": "0601 03 395017A",
+ "title": "SPHERE REGULATEUR",
+ "nature": "",
+ "applicability": "SUSPENSION HYDRACTIVE 3 PLUS REGLAGE AUTO",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0FJ0",
+   "fctId": "FCT0337"
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "ldp": "1CX3",
+ "label": "C5 II",
+ "selectors": [
+  {
+   "id": "B0D",
+   "order": 0,
+   "title": "Silhouette",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0DA5",
+     "lib": "BERLINE 5PTES"
+    },
+    {
+     "val": "B0DC5",
+     "lib": "BREAK 5PTES"
+    }
+   ],
+   "optional": false
+  },
+  {
+   "id": "B0F",
+   "order": 1,
+   "title": "Moteur",
+   "selection": "",
+   "values": [
+    {
+     "val": "B0FQ2",
+     "lib": "1.6 HDi 110"
+    },
+    {
+     "val": "B0F9W",
+     "lib": "1.6 HDi 110 FAP (DV6TED4)"
+    },
+    {
+     "val": "B0F6U",
+     "lib": "1.8 i 16v 117"
+    },
+    {
+     "val": "B0FPA",
+     "lib": "1.8 i 16v 125"
+    },
+    {
+     "val": "B0FQ1",
+     "lib": "2.0 HDi 138"
+    },
+    {
+     "val": "B0F9Q",
+     "lib": "2.0 HDi 138 FAP"
+    },
+    {
+     "val": "B0FAT",
+     "lib": "2.0 i 16v 143"
+    },
+    {
+     "val": "B0F6Z",
+     "lib": "2.2 HDi 136"
+    },
+    {
+     "val": "B0FJ0",
+     "lib": "2.2 HDi FAP 175"
+    },
+    {
+     "val": "B0F3M",
+     "lib": "3.0i V6 24v 211 (ES9A)"
+    }
+   ],
+   "optional": false
+  }
+ ],
+ "optional": [],
+ "variants": [
+  {
+   "key": "B0D=B0DA5&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FQ2"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F9W"
+   },
+   "label": "BERLINE 5PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6U",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6U"
+   },
+   "label": "BERLINE 5PTES · 1.8 i 16v 117"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FPA",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FPA"
+   },
+   "label": "BERLINE 5PTES · 1.8 i 16v 125"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FQ1",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FQ1"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 138"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F9Q"
+   },
+   "label": "BERLINE 5PTES · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FAT"
+   },
+   "label": "BERLINE 5PTES · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F6Z",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F6Z"
+   },
+   "label": "BERLINE 5PTES · 2.2 HDi 136"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0FJ0",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0FJ0"
+   },
+   "label": "BERLINE 5PTES · 2.2 HDi FAP 175"
+  },
+  {
+   "key": "B0D=B0DA5&B0F=B0F3M",
+   "selections": {
+    "B0D": "B0DA5",
+    "B0F": "B0F3M"
+   },
+   "label": "BERLINE 5PTES · 3.0i V6 24v 211 (ES9A)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FQ2",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FQ2"
+   },
+   "label": "BREAK 5PTES · 1.6 HDi 110"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F9W",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F9W"
+   },
+   "label": "BREAK 5PTES · 1.6 HDi 110 FAP (DV6TED4)"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F6U",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F6U"
+   },
+   "label": "BREAK 5PTES · 1.8 i 16v 117"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FPA",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FPA"
+   },
+   "label": "BREAK 5PTES · 1.8 i 16v 125"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FQ1",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FQ1"
+   },
+   "label": "BREAK 5PTES · 2.0 HDi 138"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F9Q",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F9Q"
+   },
+   "label": "BREAK 5PTES · 2.0 HDi 138 FAP"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FAT",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FAT"
+   },
+   "label": "BREAK 5PTES · 2.0 i 16v 143"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F6Z",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F6Z"
+   },
+   "label": "BREAK 5PTES · 2.2 HDi 136"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0FJ0",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0FJ0"
+   },
+   "label": "BREAK 5PTES · 2.2 HDi FAP 175"
+  },
+  {
+   "key": "B0D=B0DC5&B0F=B0F3M",
+   "selections": {
+    "B0D": "B0DC5",
+    "B0F": "B0F3M"
+   },
+   "label": "BREAK 5PTES · 3.0i V6 24v 211 (ES9A)"
+  }
+ ]
+}

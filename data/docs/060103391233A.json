@@ -1,0 +1,18 @@
+{
+ "ref": "060103391233A",
+ "refDisplay": "0601 03 391233A",
+ "title": "POMPE HP",
+ "nature": "",
+ "applicability": " JUSQU’A OPR 10247",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0337"
+  }
+ ]
+}

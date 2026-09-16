@@ -1,0 +1,23 @@
+{
+ "ref": "060101343031A",
+ "refDisplay": "0601 01 343031A",
+ "title": "DIFFERENTIEL BVM",
+ "nature": "",
+ "applicability": "ML6C",
+ "typDoc": "1",
+ "css": [
+  "css/Document/pr.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F9Q",
+   "fctId": "FCT0017"
+  }
+ ]
+}

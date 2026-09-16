@@ -1,0 +1,24 @@
+{
+ "ref": "1CX30490337",
+ "refDisplay": "1CX3 0 49 0337",
+ "title": "PRECATALYSEUR AVANT",
+ "nature": "",
+ "applicability": "(A03N) C5 II BERLINE 5PTES INJECTION ES9A BVA 6 RAPPORTS",
+ "typDoc": "6",
+ "css": [
+  "css/Document/baremes.css",
+  "css/Document/common.css"
+ ],
+ "usedBy": [
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DA5&B0F=B0F3M",
+   "fctId": "FCT0011"
+  },
+  {
+   "ldp": "1CX3",
+   "variantKey": "B0D=B0DC5&B0F=B0F3M",
+   "fctId": "FCT0011"
+  }
+ ]
+}
